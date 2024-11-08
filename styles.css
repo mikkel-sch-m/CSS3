@@ -1,0 +1,107 @@
+.navigasjon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+}
+.navigasjon h1 {
+    margin-right: 20px;
+    color: white;
+    font-size: 1.5em;
+}
+.navigasjon a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.navigasjon a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.test {
+    height: 60vh;
+    background-color: #ffffff;
+    display: flex;
+}
+.test2 {
+    height: 60vh;
+    background-color: #ffffff;
+    display: flex;
+}
+article {
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 1em;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 50%;
+    transition: 1s;
+}
+article:hover {
+    flex: 5;
+    font-size: 130%;
+}
+.en {
+    background-image: url(img.2/test2-1.jpg);
+}
+.to {
+    background-image: url(img.2/test2-2.jpg);
+}
+.tre {
+    background-image: url(img.2/test2-3.jpg);
+}
+.fire {
+    background-image: url(img.2/test2-4.jpg);
+}
+.fem {
+    background-image: url(img.2/test2-5.jpg);
+}
+.seks {
+    background-image: url(img.2/test2-6.jpg);
+}
+.en2 {
+    background-image: url(img.3/test3-1.jpg);
+}
+.to2 {
+    background-image: url(img.3/test3-2.jpg);
+}
+.tre2 {
+    background-image: url(img.3/test3-3.jpg);
+}
+.fire2 {
+    background-image: url(img.3/test3-4.jpg);
+}
+.fem2 {
+    background-image: url(img.3/test3-5.jpg);
+}
+.seks2 {
+    background-image: url(img.3/test3-6.jpg);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+    background-color: #333;
+}
+footer p,
+footer a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+footer a:hover {
+    background-color: #555;
+}
